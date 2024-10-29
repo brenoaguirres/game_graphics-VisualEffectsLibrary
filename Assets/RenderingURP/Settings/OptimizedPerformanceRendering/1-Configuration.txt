@@ -1,0 +1,12 @@
+1) Install URP
+2) Config URP
+	> Create URP Asset
+	* it contains the global rendering and quality settings and creates rendering
+	pipeline instance, which contains intermediate resources and RP implementation.
+3) Set URP as Active RP
+	> Edit > Project Settings > Graphics
+	* t:universalrenderpipelineasset -> queries all URP assets in project
+	> Scriptable Render Pipeline Settings field -> select URP asset here
+4) Set Override URP Asset for different quality levels
+	> Edit > Project Settings > Quality
+	> Select quality level, assign the RP.	
