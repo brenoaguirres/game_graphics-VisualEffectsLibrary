@@ -1,4 +1,4 @@
-Shader "PostProcessing/FilterInvert"
+Shader "PostProcessing/FilterGreyscale"
 {
     Properties
     {
@@ -14,7 +14,7 @@ Shader "PostProcessing/FilterInvert"
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            
+
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             struct appdata
@@ -42,8 +42,8 @@ Shader "PostProcessing/FilterInvert"
             float4 frag (v2f i) : SV_Target
             {
                 float4 col = tex2D(_MainTex, i.uv);
-                col.rgb = 1 - col.rgb;
-                return col;
+                float lum = col.r * 0.33 + col.g * 0.33 + col.b * 0.33;
+                return float4(lum, lum, lum, col.a);
             }
             ENDHLSL
         }

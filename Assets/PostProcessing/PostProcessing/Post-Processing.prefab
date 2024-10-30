@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6644559202404725218}
-  - component: {fileID: 6731267913490890207}
   m_Layer: 0
   m_Name: FilterChineseScroll
   m_TagString: Untagged
@@ -32,20 +31,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6731267913490890207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229615837341404126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 0}
-  _filterCreator: {fileID: 0}
 --- !u!1 &607787137592786047
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +89,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8866205373213308028}
-  - component: {fileID: 7351963891094193173}
   m_Layer: 0
   m_Name: FilterCyberpunkGlitch
   m_TagString: Untagged
@@ -127,20 +111,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7351963891094193173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714184255864260597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 0}
-  _filterCreator: {fileID: 0}
 --- !u!1 &2351531227719276882
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2535911878563844734}
-  - component: {fileID: 6182042583639581969}
   m_Layer: 0
   m_Name: FilterBloodyScreen
   m_TagString: Untagged
@@ -211,20 +180,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6182042583639581969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990661704138888146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 0}
-  _filterCreator: {fileID: 0}
 --- !u!1 &4574883330528863762
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +238,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2497151120787754811}
-  - component: {fileID: 7622065058403817012}
   m_Layer: 0
   m_Name: FilterGraphicBlack
   m_TagString: Untagged
@@ -306,20 +260,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7622065058403817012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4764068350957426933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 0}
-  _filterCreator: {fileID: 0}
 --- !u!1 &7520393567316050948
 GameObject:
   m_ObjectHideFlags: 0

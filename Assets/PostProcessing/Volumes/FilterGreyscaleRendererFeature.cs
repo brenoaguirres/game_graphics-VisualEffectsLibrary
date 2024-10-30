@@ -9,7 +9,7 @@ using UnityEngine.Rendering.Universal;
 //
 // For a general guide on how to create custom ScriptableRendererFeatures see the following URP documentation page:
 // https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html?subfolder=/manual/renderer-features/create-custom-renderer-feature.html
-public sealed class FilterSepiaRendererFeature : ScriptableRendererFeature
+public sealed class FilterGreyscaleRendererFeature : ScriptableRendererFeature
 {
     #region FEATURE_FIELDS
 
@@ -67,7 +67,7 @@ public sealed class FilterSepiaRendererFeature : ScriptableRendererFeature
         //
         // N.B. if your volume component type is actually defined in C# it is unlikely that VolumeManager would return a "null" instance of it as
         // GlobalSettings should always contain an instance of all VolumeComponents in the project even if if they're not overriden in the scene
-        FilterSepiaVolumeComponent myVolume = VolumeManager.instance.stack?.GetComponent<FilterSepiaVolumeComponent>();
+        FilterGreyscaleVolumeComponent myVolume = VolumeManager.instance.stack?.GetComponent<FilterGreyscaleVolumeComponent>();
         if (myVolume == null || !myVolume.IsActive())
             return;
 
@@ -168,7 +168,7 @@ public sealed class FilterSepiaRendererFeature : ScriptableRendererFeature
             //
             // To control the rendering of your effect using a custom VolumeComponent you can set the material's properties
             // based on the blended values of your VolumeComponent by querying them with the core VolumeManager API e.g.:
-            FilterSepiaVolumeComponent myVolume = VolumeManager.instance.stack?.GetComponent<FilterSepiaVolumeComponent>();
+            FilterGreyscaleVolumeComponent myVolume = VolumeManager.instance.stack?.GetComponent<FilterGreyscaleVolumeComponent>();
             if (myVolume != null)
                 s_SharedPropertyBlock.SetFloat("_Intensity", myVolume.intensity.value);
 
