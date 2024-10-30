@@ -593,7 +593,6 @@ GameObject:
   - component: {fileID: 1014706795}
   - component: {fileID: 1014706794}
   - component: {fileID: 1014706797}
-  - component: {fileID: 1014706798}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -669,7 +668,7 @@ Transform:
   m_GameObject: {fileID: 1014706793}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -719,19 +718,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &1014706798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014706793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb725f9330660fd4c8f354e8e3bf8e33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 0}
 --- !u!1 &1160354139
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,26 +953,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5735844886348407853, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
-      propertyPath: _shader
-      value: 
-      objectReference: {fileID: 4800000, guid: cfdfc39b18625294aa0304922f306d35, type: 3}
-    - target: {fileID: 5735844886348407853, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
-      propertyPath: _filterCreator
-      value: 
-      objectReference: {fileID: 1014706798}
-    - target: {fileID: 6731267913490890207, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
-      propertyPath: _filterCreator
-      value: 
-      objectReference: {fileID: 1014706798}
-    - target: {fileID: 7351963891094193173, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
-      propertyPath: _shader
-      value: 
+    - target: {fileID: 7520393567316050948, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7351963891094193173, guid: e01f33450b0e5c84bbeec271dcf6006d, type: 3}
-      propertyPath: _filterCreator
-      value: 
-      objectReference: {fileID: 1014706798}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
