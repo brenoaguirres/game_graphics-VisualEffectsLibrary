@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6644559202404725218}
-  - component: {fileID: 1847333291876279302}
+  - component: {fileID: 6731267913490890207}
   m_Layer: 0
   m_Name: FilterChineseScroll
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1847333291876279302
+--- !u!114 &6731267913490890207
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,14 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 229615837341404126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 009f20f338de26a4cabc2f78f0e147f9, type: 2}
+  _shader: {fileID: 0}
+  _filterCreator: {fileID: 0}
 --- !u!1 &607787137592786047
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8866205373213308028}
-  - component: {fileID: 1438130031216654016}
+  - component: {fileID: 7351963891094193173}
   m_Layer: 0
   m_Name: FilterCyberpunkGlitch
   m_TagString: Untagged
@@ -130,7 +127,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1438130031216654016
+--- !u!114 &7351963891094193173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,14 +136,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 714184255864260597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 7892422fddce4b94b89e1e03d85c6068, type: 2}
+  _shader: {fileID: 0}
+  _filterCreator: {fileID: 0}
 --- !u!1 &2351531227719276882
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,8 +175,56 @@ Transform:
   - {fileID: 7096037909922887639}
   - {fileID: 6644559202404725218}
   - {fileID: 8866205373213308028}
+  - {fileID: 2535911878563844734}
+  - {fileID: 2497151120787754811}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3990661704138888146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2535911878563844734}
+  - component: {fileID: 6182042583639581969}
+  m_Layer: 0
+  m_Name: FilterBloodyScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2535911878563844734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3990661704138888146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4008791361852846962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6182042583639581969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3990661704138888146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shader: {fileID: 0}
+  _filterCreator: {fileID: 0}
 --- !u!1 &4574883330528863762
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +274,52 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 0bc1f8c349bc5464e806c338ed9564bd, type: 2}
+--- !u!1 &4764068350957426933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2497151120787754811}
+  - component: {fileID: 7622065058403817012}
+  m_Layer: 0
+  m_Name: FilterGraphicBlack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2497151120787754811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4764068350957426933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4008791361852846962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7622065058403817012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4764068350957426933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shader: {fileID: 0}
+  _filterCreator: {fileID: 0}
 --- !u!1 &7520393567316050948
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7096037909922887639}
-  - component: {fileID: 8323666299999814070}
+  - component: {fileID: 5735844886348407853}
   m_Layer: 0
   m_Name: FilterSepia
   m_TagString: Untagged
@@ -264,7 +352,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4008791361852846962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8323666299999814070
+--- !u!114 &5735844886348407853
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,11 +361,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7520393567316050948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f2b1de7fd1d1b149b606d7cc9b66f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 638e776388bf04e4da683b63a46f4802, type: 2}
+  _shader: {fileID: 0}
+  _filterCreator: {fileID: 0}
